@@ -14,6 +14,7 @@
 		E7B0A14D21CA5F940048802F /* PreferencesUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A14921CA5F930048802F /* PreferencesUtils.swift */; };
 		E7B0A14E21CA5F940048802F /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A14A21CA5F930048802F /* InternetConnectionManager.swift */; };
 		E7B0A14F21CA5F940048802F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A14B21CA5F940048802F /* Utilities.swift */; };
+		E7B0A19621CB824F0048802F /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A19521CB824F0048802F /* NavigationBarColorChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		E7B0A14921CA5F930048802F /* PreferencesUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesUtils.swift; sourceTree = "<group>"; };
 		E7B0A14A21CA5F930048802F /* InternetConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
 		E7B0A14B21CA5F940048802F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E7B0A19521CB824F0048802F /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E7B0A13221CA5F7C0048802F /* Info.plist */,
 				E7B0A14A21CA5F930048802F /* InternetConnectionManager.swift */,
 				E7B0A14921CA5F930048802F /* PreferencesUtils.swift */,
+				E7B0A19521CB824F0048802F /* NavigationBarColorChange.swift */,
 				E7B0A14821CA5F930048802F /* RoundButton.swift */,
 				E7B0A14B21CA5F940048802F /* Utilities.swift */,
 			);
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B0A19621CB824F0048802F /* NavigationBarColorChange.swift in Sources */,
 				E7B0A14E21CA5F940048802F /* InternetConnectionManager.swift in Sources */,
 				E7B0A14D21CA5F940048802F /* PreferencesUtils.swift in Sources */,
 				E7B0A14F21CA5F940048802F /* Utilities.swift in Sources */,
