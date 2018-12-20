@@ -15,12 +15,12 @@ public class Utilities {
     }
     
     
-    public static func getDisplayableDateStringForPosts(inputDateString: String) -> String?{
+    public static func getFormattedDateString(inputDateString: String, inputDateFormat: String, outputDateFormat: String) -> String?{
         let dateFormatterInput = DateFormatter()
-        dateFormatterInput.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        dateFormatterInput.dateFormat = inputDateFormat//"yyyy-MM-dd HH:mm:ss"
         
         let dateFormatterOutput = DateFormatter()
-        dateFormatterOutput.dateFormat = "EEEE, MMM dd hh:mm a"
+        dateFormatterOutput.dateFormat = outputDateFormat//"EEEE, MMM dd hh:mm a"
         
         if let date = dateFormatterInput.date(from: inputDateString) {
             return (dateFormatterOutput.string(from: date))
@@ -29,9 +29,9 @@ public class Utilities {
         }
     }
     
-    public static func isThisDateInPast(inputDateString: String) -> Bool{
+    public static func isThisDateInPast(inputDateString: String, inputDateFormat: String) -> Bool{
         let dateFormatterInput = DateFormatter()
-        dateFormatterInput.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        dateFormatterInput.dateFormat = inputDateFormat//"yyyy-MM-dd HH:mm:ss"
         let intputDateTime = dateFormatterInput.date(from: inputDateString)
         if let inputDateTime = intputDateTime{
             if(inputDateTime.timeIntervalSinceNow.sign == .minus){
@@ -40,7 +40,22 @@ public class Utilities {
                 return false
             }
         }else{
-            return true
+            return false
+        }
+    }
+    
+    public static func isThisDateInFuture(inputDateString: String, inputDateFormat: String) -> Bool{
+        let dateFormatterInput = DateFormatter()
+        dateFormatterInput.dateFormat = inputDateFormat//"yyyy-MM-dd HH:mm:ss"
+        let intputDateTime = dateFormatterInput.date(from: inputDateString)
+        if let inputDateTime = intputDateTime{
+            if(inputDateTime.timeIntervalSinceNow.sign == .plus){
+                return true
+            }else{
+                return false
+            }
+        }else{
+            return false
         }
     }
     
