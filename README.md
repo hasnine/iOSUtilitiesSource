@@ -10,4 +10,5 @@ All types of swift utilities and necessary settings included in this library.
 
 # Pod Setup
 Just add this line in your pod file:
-  pod 'iOSUtilitiesSource', :git => 'https://github.com/hasnine/iOSUtilitiesSource.git'
+
+- pod 'iOSUtilitiesSource', :git => 'https://github.com/hasnine/iOSUtilitiesSource.git'
