@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
           #3.  
           s.summary         = "Sort description of 'iOSUtilitiesSource' framework"
           #4.
-          s.homepage        = "https://github.com/hasnine/iOSUtilitiesSource.git"
+          s.homepage        = "https://github.com/hasnine/"
           #5.
           s.license              = "MIT"
           #6.
