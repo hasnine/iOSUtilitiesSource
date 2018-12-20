@@ -38,4 +38,28 @@ and for get this saved data :
 *With library: 
 
       NavigationBarColorChange.changeNavigationBarColor(barTintColor: .black, tintColor: .white,forgroundColor: UIColor, isTranslucent: true)
+      
+- Date formatter: 
+
+*Input date format : "yyyy-MM-dd HH:mm:ss"
+*OutPut Date format: "EEEE, MMM dd hh:mm a"
            
+*Date format with code: 
+
+     public static func getDisplayableDateStringForPosts(inputDateString: String) -> String?{
+        let dateFormatterInput = DateFormatter()
+        dateFormatterInput.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        
+        let dateFormatterOutput = DateFormatter()
+        dateFormatterOutput.dateFormat = "EEEE, MMM dd hh:mm a"
+        
+        if let date = dateFormatterInput.date(from: inputDateString) {
+            return (dateFormatterOutput.string(from: date))
+        } else {
+            return nil
+        }
+    }
+
+*With library:
+
+    Utilities.getDisplayableDateStringForPosts(inputDateString: yyyy-MM-dd HH:mm:ss)
