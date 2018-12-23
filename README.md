@@ -73,4 +73,6 @@ Add
        
 class in your textfield's custom class from storyboard.
 
+Output:
 
+<img src="https://imgur.com/GO6npGt.gif" width="140" height="280" />
