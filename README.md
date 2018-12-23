@@ -6,6 +6,7 @@ All types of swift utilities and necessary settings included in this library.
  - String check 
  - Button round 
  - View round
+ - Floating textField
 
 
 # Pod Setup
