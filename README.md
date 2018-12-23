@@ -8,6 +8,7 @@ All types of swift utilities and necessary settings included in this library.
  - View round
  - Floating textField
  - Hide keyboard when tapped around
+ - Toast message show
 
 
 # Pod Setup
@@ -83,3 +84,9 @@ Output:
 Add this line in viewDidLoad:
 
     hideKeyboardWhenTappedAround()
+    
+- Toast Message
+
+Add this line in your code, where you want to show your message:
+
+    showToast(message: "YOUR_MESSAGE")
