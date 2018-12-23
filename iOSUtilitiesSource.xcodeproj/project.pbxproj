@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A874815E21CF6753000BEEF8 /* FloatingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */; };
 		E7B0A13821CA5F7C0048802F /* iOSUtilitiesSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B0A12E21CA5F7C0048802F /* iOSUtilitiesSource.framework */; };
 		E7B0A13D21CA5F7C0048802F /* iOSUtilitiesSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A13C21CA5F7C0048802F /* iOSUtilitiesSourceTests.swift */; };
 		E7B0A13F21CA5F7C0048802F /* iOSUtilitiesSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B0A13121CA5F7C0048802F /* iOSUtilitiesSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlaceholder.swift; sourceTree = "<group>"; };
 		E7B0A12E21CA5F7C0048802F /* iOSUtilitiesSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSUtilitiesSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0A13121CA5F7C0048802F /* iOSUtilitiesSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSUtilitiesSource.h; sourceTree = "<group>"; };
 		E7B0A13221CA5F7C0048802F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				E7B0A19521CB824F0048802F /* NavigationBarColorChange.swift */,
 				E7B0A14821CA5F930048802F /* RoundButton.swift */,
 				E7B0A14B21CA5F940048802F /* Utilities.swift */,
+				A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */,
 			);
 			path = iOSUtilitiesSource;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				E7B0A19621CB824F0048802F /* NavigationBarColorChange.swift in Sources */,
 				E7B0A14E21CA5F940048802F /* InternetConnectionManager.swift in Sources */,
 				E7B0A14D21CA5F940048802F /* PreferencesUtils.swift in Sources */,
+				A874815E21CF6753000BEEF8 /* FloatingPlaceholder.swift in Sources */,
 				E7B0A14F21CA5F940048802F /* Utilities.swift in Sources */,
 				E7B0A14C21CA5F940048802F /* RoundButton.swift in Sources */,
 			);
