@@ -6,6 +6,7 @@ All types of swift utilities and necessary settings included in this library.
  - String check 
  - Button round 
  - View round
+ - Floating textField
 
 
 # Pod Setup
@@ -63,3 +64,15 @@ and for get this saved data :
 *With library:
 
     Utilities.getDisplayableDateStringForPosts(inputDateString: yyyy-MM-dd HH:mm:ss)
+    
+- Floating TextField plceholder
+
+Add 
+       
+       IuFloatingTextFiledPlaceHolder 
+       
+class in your textfield's custom class from storyboard.
+
+Output:
+
+<img src="https://imgur.com/GO6npGt.gif" width="140" height="280" />
