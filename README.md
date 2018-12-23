@@ -63,3 +63,9 @@ and for get this saved data :
 *With library:
 
     Utilities.getDisplayableDateStringForPosts(inputDateString: yyyy-MM-dd HH:mm:ss)
+    
+- Floating TextField plceholder
+
+Add *IuFloatingTextFiledPlaceHolder class in your textfield's custom class from storyboard.
+
+
