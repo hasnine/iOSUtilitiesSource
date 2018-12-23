@@ -66,6 +66,10 @@ and for get this saved data :
     
 - Floating TextField plceholder
 
-Add *IuFloatingTextFiledPlaceHolder class in your textfield's custom class from storyboard.
+Add 
+       
+       IuFloatingTextFiledPlaceHolder 
+       
+class in your textfield's custom class from storyboard.
 
 
