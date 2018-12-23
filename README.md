@@ -7,6 +7,7 @@ All types of swift utilities and necessary settings included in this library.
  - Button round 
  - View round
  - Floating textField
+ - Hide keyboard when tapped around
 
 
 # Pod Setup
@@ -76,3 +77,9 @@ class in your textfield's custom class from storyboard.
 Output:
 
 <img src="https://imgur.com/GO6npGt.gif" width="140" height="280" />
+
+- Hide keyboard when tapped around
+
+Add this line in viewDidLoad:
+
+    hideKeyboardWhenTappedAround()
