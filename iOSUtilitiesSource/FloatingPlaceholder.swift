@@ -16,7 +16,7 @@ enum placeholderDirection: String {
     case placeholderDown = "down"
     
 }
-public class kTextFiledPlaceHolder: UITextField {
+public class IuFloatingTextFiledPlaceHolder: UITextField {
     var enableMaterialPlaceHolder : Bool = true
     var placeholderAttributes = NSDictionary()
     var lblPlaceHolder = UILabel()
@@ -34,7 +34,7 @@ public class kTextFiledPlaceHolder: UITextField {
     }
     func Initialize(){
         self.clipsToBounds = false
-        self.addTarget(self, action: #selector(kTextFiledPlaceHolder.textFieldDidChange), for: .editingChanged)
+        self.addTarget(self, action: #selector(IuFloatingTextFiledPlaceHolder.textFieldDidChange), for: .editingChanged)
         self.EnableMaterialPlaceHolder(enableMaterialPlaceHolder: true)
         if isUnderLineAvailabe {
             let underLine = UIImageView()
@@ -80,7 +80,7 @@ public class kTextFiledPlaceHolder: UITextField {
     }
     @objc func textFieldDidChange(){
         if self.enableMaterialPlaceHolder {
-            if (self.text == nil) || (self.text?.characters.count)! > 0 {
+            if (self.text == nil) || (self.text?.count)! > 0 {
                 self.lblPlaceHolder.alpha = 1
                 self.attributedPlaceholder = nil
                 self.lblPlaceHolder.textColor = self.placeHolderColor
@@ -89,7 +89,7 @@ public class kTextFiledPlaceHolder: UITextField {
                 self.lblPlaceHolder.font = UIFont.init(name: (self.font?.fontName)!, size: fontSize-3)
             }
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 1, options: .curveEaseInOut, animations: {() -> Void in
-                if (self.text == nil) || (self.text?.characters.count)! <= 0 {
+                if (self.text == nil) || (self.text?.count)! <= 0 {
                     self.lblPlaceHolder.font = self.defaultFont
                     self.lblPlaceHolder.frame = CGRect(x: self.lblPlaceHolder.frame.origin.x+10, y : 0, width :self.frame.size.width, height : self.frame.size.height)
                 }
