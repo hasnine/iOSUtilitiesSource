@@ -9,6 +9,8 @@ All types of swift utilities and necessary settings included in this library.
  - Floating textField
  - Hide keyboard when tapped around
  - Toast message show
+ - SimpleGradientView
+ - GIF image loader
 
 
 # Pod Setup
@@ -90,3 +92,25 @@ Add this line in viewDidLoad:
 Add this line in your code, where you want to show your message:
 
     showToast(message: "YOUR_MESSAGE")
+    
+- SimpleGradientView :
+
+  * Add view in your storyboard 
+  
+  * From  Story board Attributes inspector - set first , mid and End color
+  
+  * Provide direction value to change Gradient angle 
+  
+- GIF Image loader
+
+  * Import 'iOSUtilitiesSource' in your class to use GifImage .
+  
+  * Drag your image in project folder    
+  
+  * Gif image needed to be placed in folder instead of image asset.
+      
+  * Add  UIimageView_Storybord_reference(name: "YOUR_GIF_NAME") in viewWillAppear / in your required method.
+  
+    
+  
+  <img src="https://imgur.com/bvxuMhk.gif" width="140" height="280" />
