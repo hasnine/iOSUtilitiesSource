@@ -1,11 +1,3 @@
-//
-//  FloatingPlaceholder.swift
-//  iOSUtilitiesSource
-//
-//  Created by Raihan on 12/23/18.
-//  Copyright © 2018 SSL Wireless Limited. All rights reserved.
-//
-
 
 
 import Foundation

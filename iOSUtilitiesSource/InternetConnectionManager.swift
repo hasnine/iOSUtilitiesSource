@@ -1,10 +1,3 @@
-//
-//  InternetConnectionManager.swift
-//  TestingProject
-//
-//  Created by Jamil Hasnine Tamim on 19/12/18.
-//  Copyright © 2018 SSL Wireless Limited. All rights reserved.
-//
 
 import Foundation
 import UIKit

@@ -1,10 +1,4 @@
-//
-//  ToastExtention.swift
-//  RobiMad
-//
-//  Created by Jamil Hasnine Tamim on 29/10/18.
-//  Copyright © 2018 SSL Wireless Limited. All rights reserved.
-//
+
 
 import UIKit
 

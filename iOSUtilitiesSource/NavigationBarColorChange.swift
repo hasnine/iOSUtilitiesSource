@@ -1,10 +1,4 @@
-//
-//  NavigationBarColorChange.swift
-//  iOSUtilitiesSource
-//
-//  Created by Jamil Hasnine Tamim on 20/12/18.
-//  Copyright © 2018 SSL Wireless Limited. All rights reserved.
-//
+
 
 import Foundation
 
