@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-final class iOSKeyboardShared {
+public final class iOSKeyboardShared {
     
-    static let shared = iOSKeyboardShared()
+    public static let shared = iOSKeyboardShared()
     var isKeyboardAppear = false
     var view: UIView?
     
