@@ -11,6 +11,7 @@ All types of swift utilities and necessary settings included in this library.
  - Toast message show
  - SimpleGradientView
  - GIF image loader
+ - Keyboard show/hide with view up/down
 
 
 # Pod Setup
@@ -114,3 +115,12 @@ Add this line in your code, where you want to show your message:
     
   
   <img src="https://imgur.com/bvxuMhk.gif" width="140" height="280" />
+  
+  - Keyboard show/hide with view up/down
+  
+  Add this line in your viewDidLoad():
+           
+      iOSKeyboardShared.shared.keyBoardShowHide(view: self.view)
+      
+   <img src="https://imgur.com/3fBZp2J.gif" width="140" height="280" />   
+  
