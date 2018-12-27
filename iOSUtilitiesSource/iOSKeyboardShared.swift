@@ -15,7 +15,7 @@ public final class iOSKeyboardShared {
     var isKeyboardAppear = false
     var view: UIView?
     
-    func keyBoardShowHide(view : UIView){
+    public func keyBoardShowHide(view : UIView){
         self.view = view
         hideKeyboardWhenTappedAround()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
