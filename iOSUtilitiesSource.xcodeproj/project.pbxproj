@@ -10,6 +10,7 @@
 		A874815E21CF6753000BEEF8 /* FloatingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */; };
 		A874819421CFA07C000BEEF8 /* GifImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874819321CFA07C000BEEF8 /* GifImageLoader.swift */; };
 		A874819621CFA11B000BEEF8 /* SimpleGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874819521CFA11B000BEEF8 /* SimpleGradientView.swift */; };
+		A8DC8FCA21F452C800662000 /* StartRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8FC921F452C800662000 /* StartRating.swift */; };
 		A8DFABAC21E76828007C28C3 /* SwiftHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFABAB21E76828007C28C3 /* SwiftHUD.swift */; };
 		E7B0A13821CA5F7C0048802F /* iOSUtilitiesSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B0A12E21CA5F7C0048802F /* iOSUtilitiesSource.framework */; };
 		E7B0A13D21CA5F7C0048802F /* iOSUtilitiesSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0A13C21CA5F7C0048802F /* iOSUtilitiesSourceTests.swift */; };
@@ -35,6 +36,7 @@
 		A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlaceholder.swift; sourceTree = "<group>"; };
 		A874819321CFA07C000BEEF8 /* GifImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageLoader.swift; sourceTree = "<group>"; };
 		A874819521CFA11B000BEEF8 /* SimpleGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGradientView.swift; sourceTree = "<group>"; };
+		A8DC8FC921F452C800662000 /* StartRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartRating.swift; sourceTree = "<group>"; };
 		A8DFABAB21E76828007C28C3 /* SwiftHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHUD.swift; sourceTree = "<group>"; };
 		E7B0A12E21CA5F7C0048802F /* iOSUtilitiesSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSUtilitiesSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0A13121CA5F7C0048802F /* iOSUtilitiesSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSUtilitiesSource.h; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B0A13121CA5F7C0048802F /* iOSUtilitiesSource.h */,
+				A8DC8FC921F452C800662000 /* StartRating.swift */,
 				E7B0A13221CA5F7C0048802F /* Info.plist */,
 				A8DFABAB21E76828007C28C3 /* SwiftHUD.swift */,
 				E7B0A14A21CA5F930048802F /* InternetConnectionManager.swift */,
@@ -225,6 +228,7 @@
 				E7B0A19621CB824F0048802F /* NavigationBarColorChange.swift in Sources */,
 				E7B0A14E21CA5F940048802F /* InternetConnectionManager.swift in Sources */,
 				E7B0A14D21CA5F940048802F /* PreferencesUtils.swift in Sources */,
+				A8DC8FCA21F452C800662000 /* StartRating.swift in Sources */,
 				A874815E21CF6753000BEEF8 /* FloatingPlaceholder.swift in Sources */,
 				A874819421CFA07C000BEEF8 /* GifImageLoader.swift in Sources */,
 				E7B0A14F21CA5F940048802F /* Utilities.swift in Sources */,
