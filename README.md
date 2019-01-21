@@ -12,6 +12,8 @@ All types of swift utilities and necessary settings included in this library.
  - SimpleGradientView
  - GIF image loader
  - Keyboard show/hide with view up/down
+ - Alert toast with image(Success, Info, Custom, Error)
+ - Rating view
 
 
 # Pod Setup
@@ -123,4 +125,20 @@ Add this line in your code, where you want to show your message:
       iOSKeyboardShared.shared.keyBoardShowHide(view: self.view)
       
    <img src="https://imgur.com/3fBZp2J.gif" width="140" height="280" />   
+   
+- Alert toast View :
+
+ Example :   
+ 
+     self.noticeTop("Test Notice", autoClear: true, autoClearTime: 5)
+     self.noticeError("Test Notice", autoClear: true, autoClearTime: 5)
+     self.noticeSuccess("Test Notice", autoClear: true, autoClearTime: 5)
+     self.noticeInfo("Test Notice")
+     self.noticeError("Test Notice")
+     self.noticeOnlyText("Test Notice")
+     self.clearAllNotice()
+   
+   
+  Output:
   
+   <img src="https://imgur.com/79fkADZ.gif" width="140" height="280" />   
