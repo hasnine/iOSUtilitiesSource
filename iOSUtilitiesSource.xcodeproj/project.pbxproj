@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8725D3221F5B597001630D8 /* StartRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8725D3121F5B597001630D8 /* StartRating.swift */; };
+		A8725D3421F5B59E001630D8 /* SwiftHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8725D3321F5B59E001630D8 /* SwiftHUD.swift */; };
 		A874815E21CF6753000BEEF8 /* FloatingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */; };
 		E71D61D721CF8446000014B0 /* HideKeybordWhenPressedOutsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D61D621CF8446000014B0 /* HideKeybordWhenPressedOutsideViewController.swift */; };
 		E71D61DD21CF885C000014B0 /* ToastExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D61DC21CF885C000014B0 /* ToastExtention.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8725D3121F5B597001630D8 /* StartRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartRating.swift; sourceTree = "<group>"; };
+		A8725D3321F5B59E001630D8 /* SwiftHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHUD.swift; sourceTree = "<group>"; };
 		A874815D21CF6753000BEEF8 /* FloatingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlaceholder.swift; sourceTree = "<group>"; };
 		E71D61D621CF8446000014B0 /* HideKeybordWhenPressedOutsideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideKeybordWhenPressedOutsideViewController.swift; sourceTree = "<group>"; };
 		E71D61DC21CF885C000014B0 /* ToastExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastExtention.swift; sourceTree = "<group>"; };
@@ -95,7 +99,9 @@
 			children = (
 				E7B0A13121CA5F7C0048802F /* iOSUtilitiesSource.h */,
 				E7B0A13221CA5F7C0048802F /* Info.plist */,
+				A8725D3121F5B597001630D8 /* StartRating.swift */,
 				E7B0A14A21CA5F930048802F /* InternetConnectionManager.swift */,
+				A8725D3321F5B59E001630D8 /* SwiftHUD.swift */,
 				E7B0A14921CA5F930048802F /* PreferencesUtils.swift */,
 				E7B0A19521CB824F0048802F /* NavigationBarColorChange.swift */,
 				E776FCE921D4A6550062D0CB /* iOSKeyboardShared.swift */,
@@ -231,12 +237,14 @@
 				E71D61DD21CF885C000014B0 /* ToastExtention.swift in Sources */,
 				E776FCEA21D4A6550062D0CB /* iOSKeyboardShared.swift in Sources */,
 				E7B0A19621CB824F0048802F /* NavigationBarColorChange.swift in Sources */,
+				A8725D3221F5B597001630D8 /* StartRating.swift in Sources */,
 				E7B0A14E21CA5F940048802F /* InternetConnectionManager.swift in Sources */,
 				E7B0A14D21CA5F940048802F /* PreferencesUtils.swift in Sources */,
 				E71D61E921D0A217000014B0 /* SimpleGradientView.swift in Sources */,
 				A874815E21CF6753000BEEF8 /* FloatingPlaceholder.swift in Sources */,
 				E7B0A14F21CA5F940048802F /* Utilities.swift in Sources */,
 				E71D61E821D0A217000014B0 /* GifImageLoader.swift in Sources */,
+				A8725D3421F5B59E001630D8 /* SwiftHUD.swift in Sources */,
 				E7B0A14C21CA5F940048802F /* RoundButton.swift in Sources */,
 				E71D61D721CF8446000014B0 /* HideKeybordWhenPressedOutsideViewController.swift in Sources */,
 			);
