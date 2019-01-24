@@ -4,6 +4,7 @@ All types of swift utilities and necessary settings included in this library.
  - Internet check 
  - Date convertion
  - String check 
+ - Alert dialog extension
  - Button round 
  - View round
  - Floating textField
