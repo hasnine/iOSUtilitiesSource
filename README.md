@@ -12,6 +12,8 @@ All types of swift utilities and necessary settings included in this library.
  - SimpleGradientView
  - GIF image loader
  - Keyboard show/hide with view up/down
+ - Alert toast with image(Success, Info, Custom, Error)
+ - Rating view
 
 
 # Pod Setup
@@ -123,4 +125,75 @@ Add this line in your code, where you want to show your message:
       iOSKeyboardShared.shared.keyBoardShowHide(view: self.view)
       
    <img src="https://imgur.com/3fBZp2J.gif" width="140" height="280" />   
+   
+- Alert toast View :
+
+ Example :   
+ 
+     self.noticeTop("Test Notice", autoClear: true, autoClearTime: 5)
+     self.noticeError("Test Notice", autoClear: true, autoClearTime: 5)
+     self.noticeSuccess("Test Notice", autoClear: true, autoClearTime: 5)
+     self.noticeInfo("Test Notice")
+     self.noticeError("Test Notice")
+     self.noticeOnlyText("Test Notice")
+     self.clearAllNotice()
+   
+   
+  Output:
   
+   <img src="https://imgur.com/79fkADZ.gif" width="140" height="280" />   
+   
+   
+   - Rating View :
+   
+      Add StarRatingView class in storyboards in any specific view as following image below:
+      
+        <img src="https://imgur.com/hEkE8Sx.gif" width="340" height="280" />  
+        
+      
+      Example code:
+      
+      
+         override func viewDidLoad() {
+         super.viewDidLoad()
+        
+         startView.didFinishTouchingStarRating = { rating in
+            if rating == 4.0{
+                self.startView.text = "Status : Favoulas"
+            }else if rating == 3{
+                self.startView.text = "Status : Good"
+            }else{
+                self.startView.text = "Status : Moderate"
+            }
+         }
+         // Do not change rating when touched
+         // Use if you need just to show the stars without getting user's input
+         startView.settings.updateOnTouch = false
+         // Show only fully filled stars
+         startView.settings.fillMode = .full
+         // Other fill modes: .half, .precise
+         // Change the size of the stars
+         startView.settings.starSize = 30
+        
+         // Set the distance between stars
+         startView.settings.starMargin = 5
+        
+         // Set the color of a filled star
+         startView.settings.filledColor = UIColor.orange
+         
+         // Set the border color of an empty star
+         startView.settings.emptyBorderColor = UIColor.orange
+        
+         // Set the border color of a filled star
+         startView.settings.filledBorderColor = UIColor.orange
+         // Set image for the filled star
+         //cosmosView.settings.filledImage = UIImage(named: "GoldStarFilled")
+         // Set image for the empty star
+         //cosmosView.settings.emptyImage = UIImage(named: "GoldStarEmpty")
+         startView.textSize = 10
+         }
+      
+        
+     Output:
+   
+       <img src="https://imgur.com/c8RWBzB.gif" width="200" height="280" />
